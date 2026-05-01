@@ -23,8 +23,8 @@ import java.util.concurrent.TimeUnit
 import java.security.MessageDigest
 
 object GemmaAnalyzer {
-    private const val OLLAMA_BASE_URL = "http://192.168.123.2:11434"
-    private const val OPENROUTER_API_KEY = "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"
+    private const val OLLAMA_BASE_URL = ""
+    private const val OPENROUTER_API_KEY = ""
     private const val MODEL_OLLAMA = "llama3" 
     private const val MODEL_FALLBACK = "meta-llama/llama-3.1-8b-instruct:free"
     
